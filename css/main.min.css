@@ -278,7 +278,7 @@ body {
   .categories__list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr) [2];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
@@ -291,7 +291,7 @@ body {
   .categories__list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr) [3];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }

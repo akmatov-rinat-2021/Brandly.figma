@@ -117,14 +117,13 @@ body {
   color: #f3c2c2;
 }
 .menu .active {
-  color: #f3c2c2;
+  color: #d94343;
 }
 @media (min-width: 1024px) {
   .menu {
     position: static;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
+    display: none;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;

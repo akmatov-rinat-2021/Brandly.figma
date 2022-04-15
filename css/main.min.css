@@ -76,10 +76,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 2;
+  z-index: 1;
 }
 @media (min-width: 1024px) {
   .header__toggle {
+    display: none;
+  }
+  .menu-show {
     display: none;
   }
 }
@@ -96,10 +99,10 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
   list-style: none;
-  background-color: #ecf0f1;
+  background-color: #fff;
 }
 .menu__item + .menu__item {
   margin-top: 10px;
